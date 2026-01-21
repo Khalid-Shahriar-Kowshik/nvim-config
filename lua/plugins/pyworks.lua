@@ -19,6 +19,8 @@ return {
           vim.g.molten_wrap_output = true
           vim.g.molten_virt_text_output = true
           vim.g.molten_virt_lines_off_by_1 = true
+          -- Auto-initialize kernel without prompting
+          vim.g.molten_auto_init_behavior = "init"
         end,
       },
       -- Inline image rendering for plots
